@@ -8,6 +8,7 @@ I took the data from the Kaggle, and thanks to ANDRÉ MEIER for uploading this d
 **Libraries**: <br>
 I listed all libraries and their versions in the notebook. It is basic set of numpy, pandas, scikit-learn, and pytorch as well.
 <hr>
+
 **Workflow**: <br>
 It wasn't so hard to work on the data, because it was in a good format, and well-organizer. However, I did some transformations.
 
