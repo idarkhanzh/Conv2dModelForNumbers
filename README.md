@@ -11,7 +11,7 @@ I listed all libraries and their versions in the notebook. It is basic set of nu
 **Workflow**:
 It wasn't so hard to work on the data, because it was in a good format, and well-organizer. However, I did some transformations.
 
-*1. Transformations*
+*1. Transformations* <br>
 I decided to change the size of the images to 224*224, since after I will be using MaxPool feature, and I need square-sized images for this purpose. I also thought, it would be easier to train the model, if we switch all images just to the gray mode. Some of images were written with blue pen, and some with black. It doesn't make any sense to assess this data from RGB perspective, because it doesn't give us any additional information. That's why I converted them to gray. After, we, of course, converted them to tensors as well as normalized them. Before the data contained different numbers, and I wanted to bring the mean to 0 and standard deviation to 1. It would allow the model easily train on this data. For that purpose, I first transformed data with no normalization, calculated mean and standard deviation, and only after used Normalize funciton in python.
 
 *2. Data loader and division*
